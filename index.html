@@ -5,9 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Projeto Bootstrap</title>
     <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary ">
+    <nav class="navbar navbar-expand-md bg-light fixed-top box-shadow p-3">
   <div class="container">
     <a class="navbar-brand" href="#"><img src="img/Teamflow.png" alt=""></a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -34,30 +35,101 @@
           <ul class="dropdown-menu">
             <li><a class="dropdown-item" href="#">Para Startups</a></li>
             <li><a class="dropdown-item" href="#">Para Pequenas Equipes</a></li>
-            <li><a class="dropdown-item" href="#">Something else here</a></li>
+            <li><a class="dropdown-item" href="#">Para Empresas</a></li>
+            <li><a class="dropdown-item" href="#">Agências</a></li>
           </ul>
         </li>
         <li class="nav-item dropdown mx-2">
           <a class="nav-link dropdown-toggle text-dark" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Dropdown link
+            Serviços
           </a>
           <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">Action</a></li>
-            <li><a class="dropdown-item" href="#">Another action</a></li>
-            <li><a class="dropdown-item" href="#">Something else here</a></li>
+            <li><a class="dropdown-item" href="#">Onboarding</a></li>
+            <li><a class="dropdown-item" href="#">Implantação</a></li>
+            <li><a class="dropdown-item" href="#">Consultoria</a></li>
+            <li><a class="dropdown-item" href="#">Segurança e Conformidade</a></li>
+
+          </ul>
+        </li>
+        <li class="nav-item dropdown mx-2">
+          <a class="nav-link dropdown-toggle text-dark" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Central de Ajuda
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Documentação</a></li>
+            <li><a class="dropdown-item" href="#">Guias e Tutoriais</a></li>
+            <li><a class="dropdown-item" href="#">Consultoria</a></li>
+            <li><a class="dropdown-item" href="#">Perguntas Frequentes (FAQ)</a></li>
+
           </ul>
         </li>
         <li class="nav-item">
-          <a class="nav-link text-dark" href="#">Features</a>
+          <a class="nav-link text-dark" href="#">Preços</a>
         </li>
       </ul>
     </div>
-    <div>
+    <div class="d-none d-sm-block">
         <a href="#" class="text-decoration-none fw-semibold p-4">Entrar</a>
         <a href="" class="btn btn-primary">Cadastre-se gratis ⭢ </a>
     </div>
   </div>
 </nav>
+
+    <section class="container my-5 pt-5 " id="section-principal">
+        <div class="row justify-content-center align-items-center">
+        <div class="col-md-5 mx-5">
+            <h1 class="fw-bold display-3 pb-2">Projetos em equipe, feitos do jeito certo</h1>
+            <p class="text-wrap py-3 lh-base">A plataforma completa para sua equipe planejar, colaborar e entregar projetos com mais organização, agilidade e resultado.</p>
+            <form class="d-flex" role="search">
+              <input class=" form-control me-2 " type="email" placeholder="email@email.com" aria-label="Search"/>
+              <button class="btn btn-primary w-50" type="submit">Cadastre-se  ⭢</button>
+            </form>
+            <img src="img/marcas.png" alt="marcas" class="pt-md-3 py-3" style="width: 100%;">
+        </div>
+        <div class="col-md-6">
+            <img src="img/foto1.png" alt="equipe" class="w-100">
+        </div>
+        </div>
+    </section>
+
+    <section class="container py-5 border-top" id="seg-section">
+        <div class="row justify-content-center align-items-center ">
+            <div class="col-md mx-5">
+                <img src="img/foto2.png" alt="" class="w-100 ">
+            </div>
+            <div class="col-md">
+                <h1 class="h1 fw-bold">Aproveite melhor o seu tempo trabalhando</h1>
+                <p class="lh-base py-3" >Organize projetos, acompanhe tarefas e colabore com sua equipe em um ambiente simples e intuitivo. Menos esforço para gerenciar, mais tempo para focar no que realmente importa.</p>
+                <a href="#" class="text-decoration-none fw-semibold">Veja como ajudamos outras equipes →</a>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="container-md my-md-5 pt-md-5 my-3 pt-3 align-items-center" id="section-principal">
+        <div class="row justify-content-center align-items-center ">
+        <div class="col-md mx-5">
+            <h1 class="fw-bold h1 pb-2">Todas as ferramentas que sua equipe precisa</h1>
+            <p class="text-wrap py-3 lh-base">Centralize tarefas, comunicação e integrações em um único lugar. Conecte as ferramentas que sua equipe já usa e trabalhe com mais agilidade, organização e controle.</p>
+            <a href="#" class="text-decoration-none fw-semibold">Conheça as ferramentas →</a>
+        </div>
+        <div class="col-md">
+            <img src="img/foto3.png" alt="equipe" class="w-90 align-self-center">
+        </div>
+        </div>
+    </section>
+
+    <section class="container" id="section-fundo">
+        <div class="row">
+        <div class="col"></div>
+        <div class="p-4 text-white col align-self-center m-3">
+            <h1 class="display-3 pb-3">Problemas surgem. Soluções acontecem.</h1>
+            <p class="pb-3">Simplifique processos, reduza gargalos e resolva desafios com mais rapidez. A Teamflow ajuda sua equipe a manter o fluxo de trabalho organizado, do planejamento à entrega.</p>
+            <a href="" class="text-white fw-semibold text-decoration-none">Melhore seu fluxo de trabalho →</a>
+        </div>
+        </div>
+    </section>
 
 
 
