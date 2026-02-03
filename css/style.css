@@ -74,6 +74,9 @@ body{
 
 
 @media (max-width:600px) {
+    img{
+        width: 100%;
+    }
     #section-fundo{
         height: 300px;
         border-radius: 0;
